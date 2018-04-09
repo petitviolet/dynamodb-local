@@ -20,6 +20,6 @@ $ docker run --rm -ti petitviolet/dynamodb-local --help
 $ docker run -tid -p 8000:8000 --name dynamodb petitviolet/dynamodb-local -inMemory
 
 // persist to file
-$ docker run -tid -p 8000:8000 -v $PWD:/data --name dynamodb petitviolet/dynamodb-local -sharedDb
+$ docker run -tid -p 8000:8000 -v $PWD:/data --name dynamodb petitviolet/dynamodb-local
 ```
 
