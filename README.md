@@ -2,6 +2,14 @@
 
 Run [DynamoDB local](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html) on Docker!
 
+## Pull
+
+Docker image pulled to [hub.docker.com](https://hub.docker.com/r/petitviolet/dynamodb-local/).
+
+```shell-session
+$ docker pull petitviolet/dynamodb-local
+```
+
 ## Run
 
 ```shell-session
